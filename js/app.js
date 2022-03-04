@@ -20,7 +20,7 @@ const displayTempareature = (teminfo) => {
     setInnerText('temperature', `${teminfo.main.temp}`);
     setInnerText('condition', `${teminfo.weather[0].main}`);
 
-    const url = `https://openweathermap.org/img/wn/${teminfo.weather[0].icon}@3x.png`
+    const url = `https://openweathermap.org/img/wn/${teminfo.weather[0].icon}@2x.png`
 
     console.log(url);
 
